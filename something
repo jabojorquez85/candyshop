@@ -1,0 +1,139 @@
+// Declaration: Define variables, arrays, or functions including their types (double, int, or string_t)
+string_t userChoice1, userChoice2, userChoice3, userChoice4;
+array double arrayPrice[6]= {0.75, 1.0, 1.0, 0.50, 0.75, 0.75};
+array string_t arrayChoices[6];
+double Wallet = 3.00;
+
+printf("Welcome to the Candy Shop. You have $3 to spend without going over.\n");
+while (Wallet > 0){
+
+printf("Choose your candy:\n");
+printf("gummies, hersheys, skittles, nerds, airhead, pushpop.\n");
+scanf("%d", &userChoice1);
+
+if (userChoice1 == "gummies") {
+    printf("The cost is %.2lf\n", arrayPrice[0]);
+//   arrayChoices [0] =userChoice1;
+   Wallet = Wallet - arrayPrice [0];
+    }
+  if (userChoice1 == "hersheys") {
+    printf("The cost is %.2lf\n", arrayPrice[1]);
+    Wallet = Wallet - arrayPrice [1];
+    }  
+     if (userChoice1 == "skittles") {
+    printf("The cost is %.2lf\n", arrayPrice[2]);
+   Wallet = Wallet - arrayPrice [2];
+    }  
+     if (userChoice1 == "nerds") {
+    printf("The cost is %.2lf\n", arrayPrice[3]);
+    Wallet = Wallet - arrayPrice [3];
+    }  
+     if (userChoice1 == "airhead") {
+    printf("The cost is %.2lf\n", arrayPrice[4]);
+  Wallet = Wallet - arrayPrice [4];
+    }  
+     if (userChoice1 == "pushpop") {
+    printf("The cost is %.2lf\n", arrayPrice[5]);
+   Wallet = Wallet - arrayPrice [5];
+    }  
+
+
+ 
+printf("Your balance is $%.2lf\n", Wallet );
+
+
+ printf("Choose your 2nd candy:\n");
+  scanf("%d", &userChoice2);
+ 
+  if (userChoice2 == "gummies") {
+    printf("The cost is %.2lf\n", arrayPrice[0]);
+     Wallet = Wallet - arrayPrice [0];
+    }
+  if (userChoice2 == "hersheys") {
+    printf("The cost is %.2lf\n", arrayPrice[1]);
+     Wallet = Wallet - arrayPrice [1];
+    }  
+     if (userChoice2 == "skittles") {
+    printf("The cost is %.2lf\n", arrayPrice[2]);
+     Wallet = Wallet - arrayPrice [2];
+    }  
+     if (userChoice2 == "nerds") {
+    printf("The cost is %.2lf\n", arrayPrice[3]);
+     Wallet = Wallet - arrayPrice [3];
+    }  
+     if (userChoice2 == "airhead") {
+    printf("The cost is %.2lf\n", arrayPrice[4]);
+    Wallet = Wallet - arrayPrice [4];
+    }  
+     if (userChoice2 == "pushpop") {
+    printf("The cost is %.2lf\n", arrayPrice[5]);
+     Wallet = Wallet - arrayPrice [5];
+    }  
+   
+printf("Your balance is $%.2lf\n", Wallet );
+
+printf("Choose your 3rd candy:\n");
+  scanf("%d", &userChoice3);
+ 
+ if (userChoice3 == "gummies") {
+    printf("The cost is %.2lf\n", arrayPrice[0]);
+     Wallet = Wallet - arrayPrice [0];
+    }
+  if (userChoice3 == "hersheys") {
+    printf("The cost is %.2lf\n", arrayPrice[1]);
+     Wallet = Wallet - arrayPrice [1];
+    }  
+     if (userChoice3 == "skittles") {
+    printf("The cost is %.2lf\n", arrayPrice[2]);
+     Wallet = Wallet - arrayPrice [2];
+    }  
+     if (userChoice3 == "nerds") {
+    printf("The cost is %.2lf\n", arrayPrice[3]);
+     Wallet = Wallet - arrayPrice [3];
+    }  
+     if (userChoice3 == "airhead") {
+    printf("The cost is %.2lf\n", arrayPrice[4]);
+     Wallet  = Wallet - arrayPrice [4];
+    }  
+     if (userChoice3 == "pushpop") {
+    printf("The cost is %.2lf\n", arrayPrice[5]);
+     Wallet  = Wallet - arrayPrice [5];
+    }  
+   
+printf("Your balance is $%.2lf\n", Wallet );
+
+
+printf("Choose your 4th candy:\n");
+  scanf("%d", &userChoice4);
+ 
+ if (userChoice4 == "gummies") {
+    printf("The cost is %.2lf\n", arrayPrice[0]);
+     Wallet = Wallet - arrayPrice [0];
+    }
+  if (userChoice4== "hersheys") {
+    printf("The cost is %.2lf\n", arrayPrice[1]);
+     Wallet = Wallet - arrayPrice [1];
+    }  
+     if (userChoice4 == "skittles") {
+    printf("The cost is %.2lf\n", arrayPrice[2]);
+     Wallet = Wallet - arrayPrice [2];
+    }  
+     if (userChoice4 == "nerds") {
+    printf("The cost is %.2lf\n", arrayPrice[3]);
+     Wallet = Wallet - arrayPrice [3];
+    }  
+     if (userChoice4 == "airhead") {
+    printf("The cost is %.2lf\n", arrayPrice[4]);
+     Wallet  = Wallet - arrayPrice [4];
+    }  
+     if (userChoice4 == "pushpop") {
+    printf("The cost is %.2lf\n", arrayPrice[5]);
+     Wallet  = Wallet - arrayPrice [5];
+    }  
+   
+printf("Your balance is $%.2lf\n", Wallet );
+
+
+}
+
+printf("Enjoy your candy!\n");
